@@ -4,9 +4,9 @@
   font-family: Noto Sans KR;
 }
 
-li {
+/* li {
   list-style: none;
-}
+} */
 
 a {
   text-decoration: none;
@@ -76,6 +76,7 @@ a {
 .skill-imgs > .skill {
   margin-bottom: 25px;
   width: 350px;
+  list-style: none;
 }
 
 .skill > img {
@@ -87,6 +88,11 @@ a {
   font-size: 14px;
   font-weight: 600;
   padding-top: 15px;
+}
+
+.react > li {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .portfolio {
@@ -133,15 +139,24 @@ a {
   font-weight: 500;
 }
 
-.stack > span {
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
+.stack > ul > li {
+  font-weight: bold;
+}
+
+.stack > ol > li {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1b5cbe;
 }
 
 .stack > span:first-child {
   font-size: 22px;
   color: navy;
+}
+
+.react_pf {
+  width: 720px;
+  height: 626px;
 }
 
 .portf-txt > .portf-link {
